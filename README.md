@@ -1,5 +1,5 @@
 <div align="center">
-  <img src=".github/assets/hero-dual-hosts.jpg" width="100%" alt="波斯女士与胡子先生的视频播客双主持主视觉">
+  <img src=".github/assets/hero-dual-hosts-v2.jpg" width="100%" alt="波斯女士与胡子先生的视频播客双主持主视觉">
 
   <h1>Produce Video Podcast</h1>
 
