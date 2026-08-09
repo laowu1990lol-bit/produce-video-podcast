@@ -1,0 +1,60 @@
+{
+  "title": "Example video podcast",
+  "duration": 18.0,
+  "content_end": 16.0,
+  "audio": "assets/audio.wav",
+  "captions": "assets/captions.srt",
+  "layout_mode": "dual_stacked",
+  "brand": {
+    "name": "Example program",
+    "byline": "Producer name",
+    "accent": "#EE911B"
+  },
+  "chapters": [
+    {"id": "chapter-1", "number": "01", "title": "Opening", "start": 0.0, "end": 16.0}
+  ],
+  "speakers": [
+    {"id": "speaker_a", "display_name": "Speaker A", "avatar": "assets/speaker-a.png", "accent": "#EE911B", "seat": "bottom"},
+    {"id": "speaker_b", "display_name": "Speaker B", "avatar": "assets/speaker-b.png", "accent": "#E79AC7", "seat": "top"}
+  ],
+  "speaker_intervals": [
+    {"speaker_id": "speaker_a", "start": 0.0, "end": 8.0},
+    {"speaker_id": "speaker_b", "start": 8.0, "end": 16.0}
+  ],
+  "segments": [
+    {
+      "index": 1,
+      "start": 0.0,
+      "end": 8.0,
+      "chapter_id": "chapter-1",
+      "label": "Opening",
+      "title": "A question with a controlled line break",
+      "title_lines": ["A question with", "a controlled line break"],
+      "keyword": "Question",
+      "body": "Short contextual explanation.",
+      "quote": "Keep the quote readable and faithful to the narration.",
+      "visual_mode": "evidence",
+      "evidence_window": {
+        "asset": "assets/context-01.mp4",
+        "start": 1.0,
+        "source_start": 0.0,
+        "duration": 6.0,
+        "grade": "B",
+        "label": "Context footage",
+        "boundary_note": "Provides context; does not independently prove the claim."
+      }
+    },
+    {
+      "index": 2,
+      "start": 8.0,
+      "end": 16.0,
+      "chapter_id": "chapter-1",
+      "label": "Conclusion",
+      "title": "Return to the central claim",
+      "keyword": "Conclusion",
+      "body": "The final scene remains visible during the tail.",
+      "quote": "Let the conclusion breathe instead of disappearing abruptly.",
+      "visual_mode": "quote"
+    }
+  ]
+}

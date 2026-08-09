@@ -1,0 +1,7 @@
+interface:
+  display_name: "公共视频播客生产"
+  short_description: "将音频、字幕与人物素材制作成经质检的单人或双人视频播客成片"
+  default_prompt: "Use $produce-video-podcast to turn the supplied audio, transcript, speakers, and approved visuals into a validated publish-ready video podcast package."
+  icon_small: "./assets/podcast-skill-icon.svg"
+  icon_large: "./assets/podcast-skill-icon.svg"
+  brand_color: "#EE911B"
